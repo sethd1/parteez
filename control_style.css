@@ -1,0 +1,71 @@
+#vantajs
+{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    z-index: -10;
+}
+
+.page_title
+{
+    text-align: center;
+    margin: 0;
+    top: 8vh;
+    position: relative;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+form
+{
+    margin: 15vh auto;
+    width: 320px;
+    position: relative;
+}
+
+input
+{
+    padding: 10px;
+}
+
+input[id="priv"]
+{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid black;
+    background: lightgoldenrodyellow;
+}
+
+input[id="pub"]
+{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid black;
+    background: lightgoldenrodyellow;
+}
+
+input:focus
+{
+    background: white;
+}
+
+input[type="submit"]
+{
+    width: 344px;
+    height: 45px;
+    background: lightgrey;
+    color: black;
+    border: black;
+}
+
+input[type="submit"]:focus
+{
+    width: 344px;
+    height: 45px;
+    background: black;
+    color: whitesmoke;
+    border: black;
+}

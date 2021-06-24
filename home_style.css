@@ -1,0 +1,82 @@
+#vantajs
+{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    z-index: -10;
+}
+
+.page_title
+{
+    text-align: center;
+    margin: 0;
+    top: 8vh;
+    position: relative;
+    -webkit-text-stroke: 2px black;
+    color: #f0ef13; 
+    /* aliceblue */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.page_subtitle
+{
+    text-align: center;
+    margin: 0;
+    top: 8vh;
+    position: relative;
+    -webkit-text-stroke: 2px white;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+input[type="text"]
+{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid black;
+    background: lavender;
+}
+
+form
+{
+    text-align: center;
+    margin: 15vh auto;
+    width: 320px;
+    position: relative;
+}
+
+input
+{
+    padding: 10px;
+}
+
+input[type="button"]
+{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid black;
+    background: lavender;
+    font-size: large;
+}
+input[type="button"]:hover
+{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid black;
+    background: rgb(195, 195, 245);
+    font-size: large;
+}
+.logo
+{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: 9vh;
+  margin-left: -120px;
+  margin-bottom: -13vh;
+}
